@@ -1,0 +1,25 @@
+{
+  "name": "kalis-birthday",
+  "version": "1.0.0",
+  "description": "this is a gift for kalis birthday",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kali"
+  ],
+  "author": "prkr",
+  "license": "ISC",
+  "dependencies": {
+    "console": "^0.7.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "ytdl-core": "^4.11.2"
+  }
+}
